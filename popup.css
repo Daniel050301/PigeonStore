@@ -1,0 +1,89 @@
+.popupbox {
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index:20
+}
+
+.popupbox a {
+    padding: 15px;
+    background-color: #030b4a;
+    color:white;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.popupbox a:hover {
+    padding: 15px;
+    background-color: #99a4fc;
+    color:white;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.popup-content{
+    position: fixed;
+    background: white;
+    padding: 1em 2em;
+    border-radius: 30px;
+    box-shadow: 0 5px 5px 5px grey;
+    transform: translateX(-30%);
+    animation: slideInPopUp 0.3s forwards;
+}
+
+@keyframes slideInPopUp {
+    0% {
+      opacity: 0;
+      transform: translateY(-50%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+}
+
+.popup-content a{    
+    color:white;
+    background-color: #030b4a;
+    font-size: 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    width: fit-content;
+    padding:10px;
+    margin-left:auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
+
+.popup-content a:hover{    
+    color:white;
+    background-color: #99a4fc;
+    font-size: 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    width: fit-content;
+    padding:10px;
+    margin-left:auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
+
+.modal {
+    position: fixed;
+    inset: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index:20
+}
+
+.modal:target {
+    display: flex;
+}
+
+h1{
+    color:#030b4a;
+}

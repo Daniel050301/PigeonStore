@@ -1,0 +1,172 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+    font-size: 20px;
+}
+
+h1 a {
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bolder;
+    color:#030b4a;
+}
+
+h1 a:hover{
+    text-decoration: none;
+    color:#99a4fc;
+}
+
+body {
+    background-image: url("image/general/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.payment-info {
+    background: blue;
+    padding: 10px;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: bold;
+}
+  
+.product-details {
+    padding: 10px;
+}
+  
+.cart {
+    background: #fff;
+    border-radius: 25px;
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+.p-about {
+    font-size: 12px;
+}
+  
+.table-shadow {
+    -webkit-box-shadow: 5px 5px 15px -2px rgba(0,0,0,0.42);
+    box-shadow: 5px 5px 15px -2px rgba(0,0,0,0.42);
+}
+  
+.type {
+    font-weight: 400;
+    font-size: 20px;
+}
+  
+label.radio {
+    cursor: pointer;
+}
+  
+label.radio input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+  
+label.radio span {
+    padding: 1px 12px;
+    border: 2px solid #ada9a9;
+    display: inline-block;
+    color: #8f37aa;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 300;
+}
+  
+label.radio input:checked + span {
+    border-color: #fff;
+    background-color: blue;
+    color: #fff;
+}
+  
+.credit-inputs {
+    background: rgb(102,102,221);
+    color: #fff !important;
+    border-color: rgb(102,102,221);
+}
+  
+.credit-inputs::placeholder {
+    color: #fff;
+    font-size: 20px;
+}
+  
+.credit-card-label {
+    font-size: 20px;
+    font-weight: 300;
+}
+  
+.form-control.credit-inputs:focus {
+    background: rgb(102,102,221);
+    border: rgb(102,102,221);
+}
+  
+.line {
+    border-bottom: 1px solid rgb(102,102,221);
+}
+  
+.information span {
+    font-size: 20px;
+    font-weight: 500;
+}
+  
+.information {
+    margin-bottom: 5px;
+}
+  
+.items {
+    box-shadow: 5px 5px 4px -1px rgb(220, 220, 220);
+    border-radius: 1em;
+    display: flex;
+}
+
+.rounded {
+    width: 150px;
+    height: auto;
+    padding-left: 20px;
+}
+  
+.spec {
+    font-size: 20px;
+}
+
+button{
+    font-size: 20px;
+    color:#030b4a
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    padding: 2px 0;
+    font-size: 20px;
+    bottom: 0; 
+    width: 100%; 
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+
+footer p {
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+    font-weight: normal;
+}
+
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Pigeon Store</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="products.css">
+        <link rel="stylesheet" href="nav.css">
+        <link rel="stylesheet" href="popup.css">
+    </head>
+    <!-- Body here -->
+    <body>
+    <!--Miscellaneous stuff here-->
+        <script type="text/javascript">
+            const sfx = new Audio();
+            sfx.src = "add-to-cart-sfx.wav";
+        </script>
+    <!--Actual stuff-->
+        <a href="index.html"><div class="logo">
+            <img src="image/general/logo.png" alt="logo.png" width: 300px; height: 150px>
+        </div></a>
+
+        <!-- top navigation -->
+        <div class="nav">
+            <a class="active" href="index.html">Home</a>
+            <div class="dropdown">
+                <div class="dropdownButton"><a href="products.html">Products</a></div>
+                <div class="dropdownItems">
+                  <a href="products.html#shampoos">Shampoos</a>
+                  <a href="products.html#bodywash">Body Wash</a>
+                  <a href="products.html#soap">Soap</a>
+                </div>
+            </div>
+            <a href="contactus.html">Contact Us</a>
+            <a href="aboutus.html">About Us</a>
+        </div>
+
+        <!-- cart button -->
+        <div class="wrapper">
+            <div class="cart"><a href="cart.html"><img src="image/general/cart.png" alt="cart.png" width="120px" height="120px"></a></div>
+        </div>
+
+        <!-------- products -------->
+        <div class="productContainer">
+
+            <div id="popup-box" class="modal">
+                <div class="popup-content">
+                    <h1>
+                        Item added to cart!
+                    </h1>
+                    <a href="#a">Continue Shopping</a>
+                </div>
+            </div>
+
+            <!--- shampoos --->
+            <div id="shampoos"><h2>Shampoos</h2></div>
+
+            <div class="cell1">  
+                <div class="box">
+                    <div class="inner">
+                        <div class="innerleft">
+                            <h3>Blur MEN Anti-Hairfall <br> Shampoo (315ml)</h3>
+                            <img src="image/product/Blur Shampoo/blur_anti_hairfall_men-removebg-preview.png">
+                        </div>
+                        <div class="innerright">
+                            <p>
+                                Blur Men Anti Hair-fall Shampoo formulated with Coffee Extract which is known 
+                                to stimulate hair follicles, support healthy hair growth cycle and prevent hair fall. 
+                            </p>
+                            <p>It is a better alternate due to breakage of your hair's composition for overusing non-conditioning shampoo.  </p> 
+                            <hr><h3>RM15.90</h3>
+                            <div class="popupbox">
+                                <a href="#popup-box" onclick="sfx.play();">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cell2">
+                <div class="box">
+                    <div class="inner">
+                        <div class="innerleft">
+                            <h3>Blur MEN Cool Menthol <br> Shampoo (315ml)</h3>
+                            <img src="image/product/Blur Shampoo/blur_cool_menthol_men-removebg-preview.png">
+                        </div>
+                        <div class="innerright">
+                            <p>Blur Men Cool Menthol Shampoo is formulated with Menthol which is known for its cooling properties. </p>
+                            <p>It provides a cooling sensation that keeps your hair and scalp feeling fresh all day.</p>
+                            <hr>
+                            <h3>RM13.26 R̶M̶1̶5̶.̶9̶0̶</h3>
+                            <h4>15% OFF!</h4>
+                            <div class="popupbox">
+                                <a href="#popup-box" onclick="sfx.play();">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="cell3">
+                <div class="box">
+                    <div class="inner3">
+                        <div class="inner3right">
+                            <h3>Blur MEN Deep Cleanse <br> Shampoo (315ml)</h3>
+                            <img src="image/product/Blur Shampoo/blur_deep_cleanse_men-removebg-preview.png">
+                        </div>
+                        <div class="inner3left">
+                            <p>Blur Men Deep Cleanse Shampoo formulated with Activated Charcoal and Citrus Peel which are known to absorb and neutralise grease, and nourish scalp. </p>
+                            <p>Helps restore the function of the scalp skin barrier.</p>
+                            <hr><h3>RM15.90</h3>
+                            <div class="popupbox">
+                                <a href="#popup-box" onclick="sfx.play();">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+
+            <div class="cell1">
+                <div class="box">
+                    <div class="inner">
+                        <div class="innerleft">
+                            <h3>Blur MEN Refreshing Oil <br> Control Shampoo (315ml)</h3>
+                            <img src="image/product/Blur Shampoo/blur_oil_control_men-removebg-preview.png">
+                        </div>
+                        <div class="innerright">
+                            <p>Blur Men Refreshing Oil Control Shampoo is engineered to help remove oil 10 layers deep for protection from dandruff.</p>
+                            <p>Its lime extract and menthol content gives you a refreshing and cooling sensation.</p>
+                            <hr><h3>RM15.90</h3>
+                            <div class="popupbox">
+                                <a href="#popup-box" onclick="sfx.play();">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="cell2">
+                <div class="box">
+                    <div class="inner">
+                        <div class="innerleft">
+                            <h3>Knee and Toes Smooth <br> & Silky Shampoo (300ml)</h3>
+                            <img src="image/product/Knee and Toes Shampoo/knees_and_toes_smooth_n_silky-removebg-preview.png">
+                        </div>
+                        <div class="innerright">
+                            <p>
+                                Knee & Toes Smooth & Silky Dandruff Shampoo is formulated with added 
+                                moisturizers to cleanse and restore dry, frizzy hair and leave it 100% flake free.
+                            </p>
+                            <hr><h3>RM12.54</h3>
+                            <div class="popupbox">
+                                <a href="#popup-box" onclick="sfx.play();">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="cell3">
+                <div class="box">
+                    <div class="inner3">
+                        <div class="inner3right">
+                            <h3>Knee and Toes <br> Cool Menthol Shampoo (300ml)</h3>
+                            <img src="image/product/Knee and Toes Shampoo/knees_and_toes_cool_menthol-removebg-preview.png">
+                        </div>
+                        <div class="inner3left">
+                            <p>
+                                Knee & Toes Cool <br> Menthol Shampoo keeps you away from dandruff & itch free for up to 72 hours. 
+                                Formulated with menthol Extracts for a lasting cooling sensation & itch relief.
+                            </p>
+                            <hr><h3>RM12.54</h3>
+                            <div class="popupbox">
+                                <a href="#popup-box" onclick="sfx.play();">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+            <div class="cell1">
+                <div class="box">
+                    <div class="inner">
+                        <div class="innerleft">
+                            <h3>Knee and Toes Apple Fresh Shampoo (300ml)</h3>
+                            <img src="image/product/Knee and Toes Shampoo/knees_and_toes_Apple_fresh-removebg-preview.png">
+                        </div>
+                        <div class="innerright">
+                            <p>
+                                Knee & Toes Apple Fresh Shampoo keeps your scalp odor free & leaves you with a fresh apple fragrance. 
+                                Contains apple extracts to reduce scalp malodor, leaving your hair with a Refreshing Scent.
+                            </p>
+                            <hr><h3>RM12.54</h3>
+                            <div class="popupbox">
+                                <a href="#popup-box" onclick="sfx.play();">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="cell2">
+                <div class="box">
+                    <div class="inner">
+                        <div class="innerleft">
+                            <h3>Knee and Toes Oil Control Shampoo (300ml)</h3>
+                            <img src="image/product/Knee and Toes Shampoo/Knee_and_Toes_oil_control-removebg-preview.png">
+                        </div>
+                        <div class="innerright">
+                            <p>
+                                Knee & Toes Oil Control Shampoo keeps your scalp oil free and leaves your hair free flowing. 
+                                Contains natural lemon extracts to help remove excess oil on the scalp, leaving your hair limp-free.
+                            </p>
+                            <hr><h3>RM12.54</h3>
+                            <div class="popupbox">
+                                <a href="#popup-box" onclick="sfx.play();">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="cell3">
+                <div class="box">
+                    <div class="inner3">
+                        <div class="inner3right">
+                            <h3>Mooncotton Anti-Dandruff <br> Shampoo (300ml)</h3>
+                            <img src="image/product/Mooncotton Shampoo/mooncotton_anti_dandruff-removebg-preview.png">
+                        </div>
+                        <div class="inner3left">
+                            <p>
+                                Mooncotton Anti-Dandruff Shampoo is enriched with Zpt Citrus Complex. 
+                                This shampoo is specifically formulated to target and eliminate dandruffs effectively 
+                                while also nourishing and restoring your hair's natural balance. 
+                            </p>
+                            <hr>
+                            <h3>RM9.18 ̶R̶M̶1̶0̶.̶8̶0̶</h3>
+                            <h4>15% OFF!</h4>
+                            <div class="popupbox">
+                                <a href="#popup-box" onclick="sfx.play();">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+            <div class="cell1">
+                <div class="box">
+                    <div class="inner">
+                        <div class="innerleft">
+                            <h3>Mooncotton Anti-Hairfall <br> Shampoo (300ml)</h3>
+                            <img src="image/product/Mooncotton Shampoo/mooncotton_anti_hairfall-removebg-preview.png">
+                        </div>
+                        <div class="innerright">
+                            <p>
+                                Mooncotton Anti Hair-Fall Shampoo contains Soya Vitamin Complex which ensures a 
+                                less visibly loss of hair. With this shampoo, you will certainly not end up like Lex Luthor. 
+                            </p>
+                            <hr><h3>RM10.80</h3>
+                            <div class="popupbox">
+                                <a href="#popup-box" onclick="sfx.play();">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="cell2">
+                <div class="box">
+                    <div class="inner">
+                        <div class="innerleft">
+                            <h3>Mooncotton Lusciously Thick <br> & Long Shampoo (300ml)</h3>
+                            <img src="image/product/Mooncotton Shampoo/mooncotton_lusciously_thick_n_long-removebg-preview.png">
+                        </div>
+                        <div class="innerright">
+                            <p>
+                                Mooncotton Lusciously thick and long Shampoo is formulated with Keratin Yoghurt Nutri Complex with 5 
+                                Natural Oils which are Almond, Argan, Coconut, Jojoba & Olive Oil. This nourishing hair shampoo promotes 
+                                healthy hair and supports proper hair growth, leaving your hair feeling thick, strong, and revitalized.
+                            </p>
+                            <hr><h3>RM10.80</h3>
+                            <div class="popupbox">
+                                <a href="#popup-box" onclick="sfx.play();">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="cell3">
+                <div class="box">
+                    <div class="inner3">
+                        <div class="inner3right">
+                            <h3>Mooncotton Soft & <br> Smooth Shampoo (300ml)</h3>
+                            <img src="image/product/Mooncotton Shampoo/mooncotton_soft_n_smooth-removebg-preview.png">
+                        </div>
+                        <div class="inner3left">
+                            <p>
+                                Mooncotton Soft & Smooth Shampoo, formulated with Ceramide Macadamia 
+                                Nutri-Complex With 5 Natural Oils Almond, Argan, Babassu, Camelia & Coconut Oil ensures a 
+                                Soft & Smooth Hair Throughout The Day. 
+                            </p>
+                            <hr><h3>RM10.80</h3>
+                            <div class="popupbox">
+                                <a href="#popup-box" onclick="sfx.play();">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+            <!--- body wash --->
+            <div id="bodywash"><h2>Body Wash</h2></div>
+
+            <div class="cell1">
+                <div class="box">
+                    <div class="inner">
+                        <div class="innerleft">
+                            <h3>Don't Follow Me <br> Antibacterial Body Wash (1l)</h3>
+                            <img src="image/product/Don't Follow Me Body Wash/DFM_anti_bacterial_-removebg-preview.png">
+                        </div>
+                        <div class="innerright">
+                            <p>Don't Follow Me Antibacterial is a specially formulated body wash that inhibits 
+                                the growth of bacteria to protect your skin from harsh environments. 
+                                Enriched with menthol extract and pH balance 5.5 unique formulation. </p>
+                            <hr>
+                            <h3> RM8.90 R̶M̶1̶0̶.̶4̶5̶</h3>
+                            <h4>15% OFF!</h4>
+                            <div class="popupbox">
+                                <a href="#popup-box" onclick="sfx.play();">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+            
+            <div class="cell2">
+                <div class="box">
+                    <div class="inner">
+                        <div class="innerleft">
+                            <h3>Don't Follow Me <br> Botanical Body Wash (1l)</h3>
+                            <img src="image/product/Don't Follow Me Body Wash/DFM_botanical-removebg-preview.png">
+                        </div>
+                        <div class="innerright">
+                            <p>Don't Follow Me Botanical is specially designed to provide a refreshing and hydrating 
+                                experience during your bath. Aloe Vera is known for its soothing properties, while Jojoba Oil 
+                                contributes to moisturizing the skin, leaving it feeling soft and supple.</p>
+                            <hr>
+                            <h3> RM8.90 R̶M̶1̶0̶.̶4̶5̶</h3>
+                            <h4>15% OFF!</h4>
+                            <div class="popupbox">
+                                <a href="#popup-box" onclick="sfx.play();">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="cell3">
+                <div class="box">
+                    <div class="inner3">
+                        <div class="inner3right">
+                            <h3>Don't Follow Me <br> Royal Jelly Body Wash (1l)</h3>
+                            <img src="image/product/Don't Follow Me Body Wash/DFM_Royal_jelly-removebg-preview.png">
+                        </div>
+                        <div class="inner3left">
+                            <p>
+                                Don't Follow Me Royal Jelly is enriched with royal jelly, known for its nourishing properties, 
+                                leaving your skin feeling pampered and revitalized. 
+                                The gentle formula cleanses while providing 
+                                essential hydration, leaving your skin feeling soft and supple.
+                            </p>
+                            <hr>
+                            <h3> RM8.90 R̶M̶1̶0̶.̶4̶5̶</h3>
+                            <h4>15% OFF!</h4>
+                            <div class="popupbox">
+                                <a href="#popup-box" onclick="sfx.play();">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+            <div class="cell1">
+                <div class="box">
+                    <div class="inner">
+                        <div class="innerleft">
+                            <h3>Don't Follow Me  <br> Whitening Body Wash (1l)</h3>
+                            <img src="image/product/Don't Follow Me Body Wash/DFM_whitening-removebg-preview.png">
+                        </div>
+                        <div class="innerright">
+                            <p>
+                                Don't Follow Me Whitening is enriched with sakura and pearl extract 
+                                and pH balance 5.5 unique formulation, keeps your skin hydrated, brightened and 
+                                moisturised after every wash. Suitable for family use.
+                            </p>
+                            <hr>
+                            <h3> RM8.90 R̶M̶1̶0̶.̶4̶5̶</h3>
+                            <h4>15% OFF!</h4>
+                            <div class="popupbox">
+                                <a href="#popup-box" onclick="sfx.play();">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="cell2">
+                <div class="box">
+                    <div class="inner">
+                        <div class="innerleft">
+                            <h3>Nirvana Aloe Vera <br> Body Wash (500ml)</h3>
+                            <img src="image/product/Nirvana Body Wash/nirvana_aloe-removebg-preview.png">
+                        </div>
+                        <div class="innerright">
+                            <p>
+                                NIRVANA Aloe Vera refreshes your body and senses with its invigorating aloe vera formula. 
+                                Let the light foam with natural aloe vera gently cleanse your skin, 
+                                while your senses are revitalized by the stimulating scent.
+                            </p>
+                            <hr><h3>RM30.54</h3>
+                            <div class="popupbox">
+                                <a href="#popup-box" onclick="sfx.play();">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="cell3">
+                <div class="box">
+                    <div class="inner3">
+                        <div class="inner3right">
+                            <h3>Nirvana Coconut <br> Body Wash (500ml)</h3>
+                            <img src="image/product/Nirvana Body Wash/nirvana_coconut-removebg-preview.png">
+                        </div>
+                        <div class="inner3left">
+                            <p>
+                                Let NIRVANA Coconut body wash with jojoba oil treat your skin with a rich lather, 
+                                while its delicious summary coconut scent transports your senses. 
+                                Leaves skin feeling soft and moisturized.
+                            </p>
+                            <hr><h3>RM30.54</h3>
+                            <div class="popupbox">
+                                <a href="#popup-box" onclick="sfx.play();">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            
+            <div class="cell1">
+                <div class="box">
+                    <div class="inner">
+                        <div class="innerleft">
+                            <h3>Nirvana Rose <br> Body Wash (500ml)</h3>
+                            <img src="image/product/Nirvana Body Wash/nirvana_rose-removebg-preview.png">
+                        </div>
+                        <div class="innerright">
+                            <p>
+                                Let NIRVANA Rose body wash with almond milk nourish your skin with a rich lather, 
+                                while its scent of rose indulges your senses. Leaves skin feeling soft and moisturized.
+                            </p>
+                            <hr>
+                            <h3>RM25.96 ̶ ̶R̶M̶3̶0̶.̶5̶4̶</h3>
+                            <h4>15% OFF!</h4>
+                            <div class="popupbox">
+                                <a href="#popup-box" onclick="sfx.play();">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="cell2">
+                <div class="box">
+                    <div class="inner">
+                        <div class="innerleft">
+                            <h3>Nirvana Creme Sensitive <br> Body Wash (500ml)</h3>
+                            <img src="image/product/Nirvana Body Wash/nirvana_sensitive-removebg-preview.png">
+                        </div>
+                        <div class="innerright">
+                            <p>
+                                NIRVANA Creme Sensitive cares for your sensitive skin and leaves it with a smooth, 
+                                moisturized, and noticeably healthy skin feel. Formulated with vitamin C and E and precious oils, 
+                                this body wash is dermatologically approved and balances care and cleansing properties perfectly.
+                            </p>
+                            <hr><h3>RM30.54</h3>
+                            <div class="popupbox">
+                                <a href="#popup-box" onclick="sfx.play();">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cell3">
+                <div class="box">
+                    <div class="inner3">
+                        <div class="inner3right">
+                            <h3>Detox Onzen Moisturizing <br> Body Wash (857ml)</h3>
+                            <img src="image/product/Detox Body Wash/detox_aloe-removebg-preview.png">
+                        </div>
+                        <div class="inner3left">
+                            <p>
+                                Detox Onzen Moisturizing Bodywash contains a unique formula which combines Detox's 
+                                trusted germ protection with moisturizer to protect the skin from dryness. 
+                                It gives you 8h moisturization and leaves your skin feeling healthy, smooth and soft.
+                            </p>
+                            <hr><h3>RM18.35</h3>
+                            <div class="popupbox">
+                                <a href="#popup-box" onclick="sfx.play();">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            
+            <div class="cell1">
+                <div class="box">
+                    <div class="inner">
+                        <div class="innerleft">
+                            <h3>Detox Cool <br> Body Wash (857ml)</h3>
+                            <img src="image/product/Detox Body Wash/detox_cool-removebg-preview.png">
+                        </div>
+                        <div class="innerright">
+                            <p>
+                                Detox Cool Bodywash combines energizing and refreshing fragrances with Detox's trusted germ
+                                protection with crispy menthol to give you 12h odour protection and leaves your skin feeling healthy
+                                & fresh.
+                            </p>
+                            <hr><h3>RM18.35</h3>
+                            <div class="popupbox">
+                                <a href="#popup-box" onclick="sfx.play();">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="cell2">
+                <div class="box">
+                    <div class="inner">
+                        <div class="innerleft">
+                            <h3>Detox Lasting Fresh <br> Body Wash (857ml)</h3>
+                            <img src="image/product/Detox Body Wash/detox_lasting_fresh-removebg-preview.png">
+                        </div>
+                        <div class="innerright">
+                            <p>
+                                Detox Lasting Fresh, provides 8 hour Moisturization, contains a dermatological 
+                                pH balanced formula which combines Detox's trusted germ protection with crispy menthol 
+                                to give you 12h odour protection and leaves your skin feeling healthy & fresh.
+                            </p>
+                            <hr><h3>RM18.35</h3>
+                            <div class="popupbox">
+                                <a href="#popup-box" onclick="sfx.play();">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="cell3">
+                <div class="box">
+                    <div class="inner3">
+                        <div class="inner3right">
+                            <h3>Detox Skincare <br> Body Wash (857ml)</h3>
+                            <img src="image/product/Detox Body Wash/detox_skincare-removebg-preview.png">
+                        </div>
+                        <div class="inner3left">
+                            <p>
+                                Detox Skincare Bodywash kills 99.9% of germs, provides 8 hour Moisturization, 
+                                contains a dermatological pH balanced formula which combines Detox's trusted germ protection 
+                                with moisturizer to protect the skin from dryness and preserves the
+                                skin's natural protection for a softer, smoother feeling skin. 
+                            </p>
+                            <hr><h3>RM18.35</h3>
+                            <div class="popupbox">
+                                <a href="#popup-box" onclick="sfx.play();">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+            <!--- soap --->
+            <div id="soap"><h2>Soap</h2></div>
+
+            <div class="cell1">
+                <div class="box">
+                    <div class="inner">
+                        <div class="innerleft">
+                            <h3>Detox Cool <br> Bar Soap 4x 100g </h3>
+                            <img src="image/product/Detox Soap/detox_soap_cool-removebg-preview.png">
+                        </div>
+                        <div class="innerright">
+                            <p>
+                                Combines Detox's trusted germ protection with a mint fragrance to clean 
+                                and give you assured odour protection with every wash and leaves your skin feeling healthy and fresh. 
+                            </p>  
+                            <p>*Protection from odour causing germs (tested against C. xerosis).</p>
+                            <hr><h3>RM8.84</h3>
+                            <div class="popupbox">
+                                <a href="#popup-box" onclick="sfx.play();">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="cell2">
+                <div class="box">
+                    <div class="inner">
+                        <div class="innerleft">
+                            <h3>Detox Fresh <br> Bar Soap 4x 100g </h3>
+                            <img src="image/product/Detox Soap/detox_soap_fresh-removebg-preview.png">
+                        </div>
+                        <div class="innerright">
+                            <p>
+                                Combines Detox's trusted germ protection with refreshing citrus fragrance to clean and 
+                                give you assured odour protection with every wash and leaves your skin feeling healthy & fresh.
+                            </p>  
+                            <p>*Protection from odour causing germs (tested against C. xerosis).</p>
+                            <hr><h3>RM8.84</h3>
+                            <div class="popupbox">
+                                <a href="#popup-box" onclick="sfx.play();">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="cell3">
+                <div class="box">
+                    <div class="inner3">
+                        <div class="inner3right">
+                            <h3>Detox Re-energize <br> Bar Soap 4x 100g </h3>
+                            <img src="image/product/Detox Soap/detox_soap_reenergize-removebg-preview.png">
+                        </div>
+                        <div class="inner3left">
+                            <p>
+                                Combines Detox's trusted germ protection with satsuma & orange fragrance to clean and 
+                                give you assured odour protection with every wash and leaves your skin feeling healthy & fresh. 
+                            </p>  
+                            <p>*Protection from odour causing germs (tested against C. xerosis).</p>
+                            <hr><h3>RM8.84</h3>
+                            <div class="popupbox">
+                                <a href="#popup-box" onclick="sfx.play();">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+            <div class="cell1">
+                <div class="box">
+                    <div class="inner">
+                        <div class="innerleft">
+                            <h3>Detox Skincare <br> Bar Soap 4x 100g </h3>
+                            <img src="image/product/Detox Soap/detox_soap_skincare-removebg-preview.png">
+                        </div>
+                        <div class="innerright">
+                            <p>
+                                Combines Detox's trusted germ protection with moisturizing glycerine and 
+                                sakura blossom fragrance to clean and leave your skin feeling healthy. 
+                            </p>  
+                            <p>
+                                *Skin protection from dirt and germs that may cause skin problems 
+                                (tested against P. acnes & S. aureus).
+                            </p>
+                            <hr><h3>RM8.84</h3>
+                            <div class="popupbox">
+                                <a href="#popup-box" onclick="sfx.play();">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cell2">
+                <div class="box">
+                    <div class="inner">
+                        <div class="innerleft">
+                            <h3>Okay Age Defy <br> Bar Soap 4x 113g </h3>
+                            <img src="image/product/Okay Soap/okay_age_defy_soap-removebg-preview.png">
+                        </div>
+                        <div class="innerright">
+                            <p>
+                                The Okay Age Defy Bar Soap help wash away dry skin cells for radiant and beautiful skin. 
+                                Enriched with an age-defying formula containing Vitamin E and Vitamin B3 Complex,  
+                                providing a smoother and more youthful appearance.
+                            </p>
+                            <hr>
+                            <h3>RM8.70 ̶ ̶R̶M̶1̶0̶.̶2̶3̶</h3>
+                            <h4>15% OFF!</h4>
+                            <div class="popupbox">
+                                <a href="#popup-box" onclick="sfx.play();">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cell3">
+                <div class="box">
+                    <div class="inner3">
+                        <div class="inner3right">
+                            <h3>Okay Fresh Outlast <br> Bar Soap 4x 113g </h3>
+                            <img src="image/product/Okay Soap/okay_fresh_outlast_soap-removebg-preview.png">
+                        </div>
+                        <div class="inner3left">
+                            <p>
+                                The Okay Fresh Outlast Bar Soap is infused with a craveable blend of cooling white strawberry 
+                                and mint scent, leaving your skin feeling light and wonderfully smooth. With continued use, 
+                                it provides enhanced hydration and delivers 10 times more moisturizers than regular soap for
+                                deeply moisturized skin. 
+                            </p>
+                            <hr><h3>RM10.23</h3>
+                            <div class="popupbox">
+                                <a href="#popup-box" onclick="sfx.play();">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            
+            <div class="cell1">
+                <div class="box">
+                    <div class="inner">
+                        <div class="innerleft">
+                            <h3>Okay Ultra Fresh<br> Bar Soap 4x 113g </h3>
+                            <img src="image/product/Okay Soap/okay_ultra_fresh_soap-removebg-preview.png">
+                        </div>
+                        <div class="innerright">
+                            <p>
+                                The Okay Ultra Fresh Bar Soap with notes of Water Lily is specially formulated with 
+                                creamy Okay lather and nourishing conditioners to leave you with beautiful, 
+                                clean skin you can see and feel. Experience a luxuriously scented lather and 
+                                expect irresistibly smooth skin.
+                            </p>
+                            <hr><h3>RM10.23</h3>
+                            <div class="popupbox">
+                                <a href="#popup-box" onclick="sfx.play();">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="cell2">
+                <div class="box">
+                    <div class="inner">
+                        <div class="innerleft">
+                            <h3>Okay Ultra Moisture<br> Bar Soap 4x 113g </h3>
+                            <img src="image/product/Okay Soap/okay_ultra_moisture_soap-removebg-preview.png">
+                        </div>
+                        <div class="innerright">
+                            <p>
+                                The Okay Ultra Moisture Bar Soap provides increased hydration with continued use. 
+                                This bar soap reveals softer, smoother skin in just 7 days and goes beyond cleansing 
+                                by delivering 10x more moisturizers than regular soap, helping to wash away dry skin cells 
+                                for radiant, beautiful skin. 
+                            </p>
+                            <hr><h3>RM10.23</h3>
+                            <div class="popupbox">
+                                <a href="#popup-box" onclick="sfx.play();">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cell3">
+                <div class="box">
+                    <div class="inner3">
+                        <div class="inner3right">
+                            <h3>Lex Even Tone <br> Bar Soap 4x 80g </h3>
+                            <img src="image/product/Lex Soap/lex_soap_even_touch-removebg-preview.png">
+                        </div>
+                        <div class="inner3left">
+                            <p>Enriched with Rose Hip, Vitamin C and E to help soothe and protect the skin.</p>  
+                            <hr><h3>RM5.20</h3>
+                            <div class="popupbox">
+                                <a href="#popup-box" onclick="sfx.play();">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            
+            <div class="cell1">
+                <div class="box">
+                    <div class="inner">
+                        <div class="innerleft">
+                            <h3>Lex Soft Carress <br> Bar Soap 4x 80g </h3>
+                            <img src="image/product/Lex Soap/lex_soap_soft_carress-removebg-preview.png">
+                        </div>
+                        <div class="innerright">
+                            <p>
+                                Made with lily of the valley and jasmine and lathers up to a Luxurious foam, 
+                                washing away germs and leaving your skin soft and nourished. 
+                            </p>  
+                            <hr><h3>RM5.20</h3>
+                            <div class="popupbox">
+                                <a href="#popup-box" onclick="sfx.play();">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="cell2">
+                <div class="box">
+                    <div class="inner">
+                        <div class="innerleft">
+                            <h3>Lex Soft Touch <br> Bar Soap 4x 80g </h3>
+                            <img src="image/product/Lex Soap/lex_soap_soft_touch-removebg-preview.png">
+                        </div>
+                        <div class="innerright">
+                            <p>
+                                Infused with moisturising SilkEssence™ and French Roses, 
+                                revel in skin that's soft and delicately scented.
+                            </p>  
+                            <hr><h3>RM5.20</h3>
+                            <div class="popupbox">
+                                <a href="#popup-box" onclick="sfx.play();">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="cell3">
+                <div class="box">
+                    <div class="inner3">
+                        <div class="inner3right">
+                            <h3>Lex Velvet Touch <br> Bar Soap 4x 80g </h3>
+                            <img src="image/product/Lex Soap/lex_soap_velvet_touch-removebg-preview.png">
+                        </div>
+                        <div class="inner3left">
+                            <p>Infused with modern Floral Fusion™ Oil and the traditional scent of jasmine, enjoy softer skin.</p>  
+                            <hr><h3>RM5.20</h3>
+                            <div class="popupbox">
+                                <a href="#popup-box" onclick="sfx.play();">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+            <br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br><br>
+
+        <footer>
+            <p>&copy; 2023 The Pigeon Store. All rights reserved.&nbsp;&nbsp;<a href="privacy.html">Privacy Policy</a>&nbsp;//&nbsp;<a href="t&c.html">Terms and Conditions</a></p>
+        </footer>
+    </body>
+</html>
